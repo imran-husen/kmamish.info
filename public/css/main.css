@@ -1,0 +1,20 @@
+*{
+    font-family: "Winky Sans", sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-caption {
+    bottom: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
