@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Navbar</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Here i am linking the files of the css -->
@@ -98,7 +97,7 @@
 {{$bodycode}}
 
 <!-- Here i am going to the write the code of the footer section -->
-<footer class="bg-dark text-light pt-5 pb-4 mt-2">
+<footer class="bg-dark text-light pt-5 mt-2">
   <div class="container">
     <div class="row text-center text-md-start">
       
@@ -137,8 +136,6 @@
      </div>
   </div>
 </footer>
-
-
 <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
