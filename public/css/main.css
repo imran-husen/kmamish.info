@@ -47,3 +47,36 @@
     height: 300px;
     width: 300px;
   }
+/* 
+  Here i anm writing the ciode of the about us section */
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0d6efd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  .profile-image.loaded {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .fade-in-text {
+    animation: fadeInUp 2s ease-in-out;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

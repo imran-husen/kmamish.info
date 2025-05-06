@@ -103,7 +103,7 @@
         <h2 class="mb-3 text-center text-md-start fw-semibold">K.M. Amish Khan</h2>
         <p class="mb-1 text-center text-md-start">K. M. Amish was born on 30 May 1991 in a small farmer's family in a village called Usri-Piperjhala, from the same government school in the neighboring village of Piperjhala. After completing the examination of District Panchayat Inter College Kasta High School, Raja Lone Singh Inter College Mitauli Intermediate, Yuvarajdatta Y.D.P.G. College after graduation from......</p>
         <div class="text-center text-md-start">
-          <a href="#" class="btn btn-primary">Read More +</a>
+          <a  href="{{ route('about.us') }}" class="btn btn-primary">Read More +</a>
         </div>
       </div>
     </div>
