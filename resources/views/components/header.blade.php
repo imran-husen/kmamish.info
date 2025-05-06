@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm ">
   <div class="container">
     <a class="navbar-brand fw-bold" href="index.aspx">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarEnglishMenu" aria-controls="navbarEnglishMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +38,9 @@
             Biography
           </a>
           <ul class="dropdown-menu" aria-labelledby="biographyDropdown">
-            <li><a class="dropdown-item" href="Prarambhikjeevan.aspx">Early Life</a></li>
+            <li><a class="dropdown-item" href="{{ route('about.us') }}">About us</a></li>
             <li><a class="dropdown-item" href="Dharmik.aspx">Religious Field</a></li>
-            <li><a class="dropdown-item" href="Samajik.aspx">Social Field</a></li>
+            <li><a class="dropdown-item" href="Samajik.aspx">Writter Feild</a></li>
             <li><a class="dropdown-item" href="Raajneehik.aspx">Political Field</a></li>
           </ul>
         </li>
