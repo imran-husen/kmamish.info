@@ -2,9 +2,53 @@
     font-family: "Winky Sans", sans-serif;
     color: black;
     margin: 0;
-    padding: 0;
+    padding: 1px;
 
 }
+
+/* This is the code of the navbar */
+.modern-navbar .navbar-brand {
+  font-weight: 700;
+  color: #0e15e5 !important;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.modern-navbar .nav-link {
+  color: #0a7ef2 !important;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.modern-navbar .nav-link:hover,
+.modern-navbar .nav-link:focus {
+  color: #00d4ff !important;
+}
+
+.modern-navbar .dropdown-menu {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: none;
+}
+
+.modern-navbar .dropdown-item {
+  color: #212529;
+  font-weight: 500;
+}
+
+.modern-navbar .dropdown-item:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
 .carousel-item {
     background-size: cover;
     background-position: center;
@@ -47,36 +91,19 @@
     height: 300px;
     width: 300px;
   }
-/* 
-  Here i anm writing the ciode of the about us section */
-  .profile-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #0d6efd;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.6s ease, opacity 0.6s ease;
-    opacity: 0;
-    transform: scale(0.8);
+
+  .bg-gradient {
+    background-image: linear-gradient(90deg, #007bff, #00c6ff);
+    border:1px solid red;
   }
 
-  .profile-image.loaded {
-    opacity: 1;
-    transform: scale(1);
+  @keyframes marquee {
+    0%   { left: 100%; }
+    100% { left: -100%; }
   }
 
-  .fade-in-text {
-    animation: fadeInUp 2s ease-in-out;
-  }
 
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+
+/*............................. Here i anm writing the ciode of the about us section................................................*/
+  
+  
